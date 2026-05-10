@@ -26,8 +26,8 @@ public class SpawnManager : MonoBehaviour
     }
     Vector3 SpawnPoint()
     {
-        float x = UnityEngine.Random.Range(0.0f,7f);
-        float z =UnityEngine.Random.Range(0.0f,7f);
+        float x = UnityEngine.Random.Range(-7f,7f);
+        float z =UnityEngine.Random.Range(-7f,7f);
         return new Vector3(x,transform.position.y,z);
     }
 }
